@@ -35,6 +35,25 @@ nav ul li a {
     color: #fff;
 }
 
+/*Section class="pictures"*/
+.pictures {
+    background-color: bisque;
+}
+
+p {
+    font-family: Verdana;
+}
+
+h2 {
+    padding-left: 10px;
+    margin-top: 0;
+    padding-top: 5px;
+}
+
+img {
+    height: 50%; width: 50%;
+}
+
 /* Main styles */
 main {
     padding: 20px;
