@@ -38,6 +38,7 @@ nav ul li a {
 /*Section class="pictures"*/
 .pictures {
     background-color: bisque;
+    padding-top: 15px;
 }
 
 p {
@@ -50,8 +51,30 @@ h2 {
     padding-top: 5px;
 }
 
+#adobo {
+    text-align: center;
+}
+
 img {
     height: 50%; width: 50%;
+}
+
+#Trivia {
+    text-align: center;
+}
+
+#recipe {
+    text-align: left;
+}
+
+#Ingredients {
+    padding-left: 100px;
+    text-align: left;
+}
+
+#Instructions {
+    text-align: right;
+    padding-right: 100px;
 }
 
 /* Main styles */
