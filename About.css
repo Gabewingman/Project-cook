@@ -71,7 +71,7 @@ body{
 .info{
     width: 450px;
     height: 525px;
-    background-color: black;
+    background-color: lightseagreen;
     padding: 40px;
     color: white;
     margin: 0 auto;
@@ -82,6 +82,6 @@ body{
 }
 
 u{
-    color: salmon;
+    color: lightcoral;
 }
 
