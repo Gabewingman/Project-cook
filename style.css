@@ -5,6 +5,7 @@ body, h1, p, ul {
     margin: 0;
     padding: 0;
     font-weight: 200;
+    background-color: lightskyblue;
 }
 
 /* Header styles */
@@ -20,16 +21,7 @@ body, h1, p, ul {
     background-color: lightsalmon;
 }
 
-.topNav {
-    overflow: hidden;
-    text-align: center;
-    font-size: x-large;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    margin: 10px;
-}
-
-.pictures {
+.one, .two, .three, .four, .five {
     text-align: center;
     font-family: Helvetica;
     padding-top: 15px;
@@ -39,6 +31,13 @@ body, h1, p, ul {
     border: 2px solid;
     border-radius: 20px;
     background-color: lightseagreen;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: sticky;
+}
+
+.two, .four {
+    margin-top: 10px;
 }
 
 .img {
@@ -46,63 +45,48 @@ body, h1, p, ul {
 }
 
 /* Navigation styles */
-
+.topNav {
+    overflow: hidden;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
 /*Section class="pictures"*/
-
 .recipe {
     background-color: tomato;
     padding-left: 200px;
     padding-right: 200px;
-    margin-top: 15px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
     border: 2px solid;
-    border-radius: 100px 30px;
 }
 
-#adobo {
-    padding-top: 10px;
+.Mission {
+    background-color: lightsalmon;
     text-align: center;
+    align-items: left;
+    border: solid 2px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-img {
-    height: 50%; width: 50%;
-}
-
-#Trivia {
-    text-align: center;
-}
-
-#recipe {
-    text-align: left;
-}
-
-#Ingredients {
-    padding-left: 20px;
-    text-align: left;
-}
-
-#ingredientList li {
-    text-align: left;
-}
-
-#Instructions {
-    text-align: left;
-    padding-left: 20px;
-}
-
-#instructionList {
-    padding-left: 7px;
-}
-
-/* Main styles */
-main {
-    padding: 20px;
-    padding-top: 600px;
+.About {
+    background-color: lightsalmon;
 }
 
 /* Footer styles */
-footer {
+
+.siteNumber {
+    background-color: #333;
+}
+
+.foot{
     background-color: #333;
     color: #fff;
     padding: 20px;
