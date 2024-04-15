@@ -25,12 +25,14 @@ header{
     overflow: hidden;
     text-align: center;
     font-size: x-large;
-    padding: 10px 16px;
+    padding-top: 5px;
+    background-color: tomato;
+    padding-bottom: 10px;
 }
 
-.button {
-    padding-left: 10px;
-    padding-top: 5px;
+.pictures {
+    text-align: center;
+    padding:0;
 }
 
 /* Navigation styles */
@@ -42,8 +44,8 @@ header{
 
 .recipe {
     background-color: tomato;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 220px;
+    padding-right: 220px;
     border-top: 50px;
 }
 
@@ -64,15 +66,21 @@ img {
 }
 
 #Ingredients {
-    padding-left: 100px;
+    padding-left: 20px;
     text-align: left;
 }
 
-#ingredientList li {text-align: left; padding-left: 20px;}
+#ingredientList li {
+    text-align: left;
+}
 
 #Instructions {
     text-align: left;
     padding-left: 20px;
+}
+
+#instructionList {
+    padding-left: 7px;
 }
 
 /* Main styles */
