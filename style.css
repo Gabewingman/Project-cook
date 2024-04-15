@@ -10,7 +10,7 @@ body, h1, p, ul {
 
 /* Header styles */
 header{
-    background-color: wheat;
+    background-color: #333;
     color: #b42134;
 }
 
@@ -21,30 +21,22 @@ header{
     padding-bottom: 10px;
 }
 
+.topNav {
+    overflow: hidden;
+    text-align: center;
+    font-size: x-large;
+    padding: 10px 16px;
+}
+
 .button {
     padding-left: 10px;
     padding-top: 5px;
 }
 
 /* Navigation styles */
-nav ul {
-    list-style-type: none;
-    padding-top: 10px;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-}
 
 /*Section class="pictures"*/
 .pictures {
-    background-color: bisque;
     padding-top: 15px;
 }
 
