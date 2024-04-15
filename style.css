@@ -15,6 +15,16 @@ body, h1, p, ul {
     align-items: left;
     border: solid 2px;
     border-radius: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
 
 .Cook {
@@ -31,13 +41,10 @@ body, h1, p, ul {
     border: 2px solid;
     border-radius: 20px;
     background-color: lightseagreen;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     display: inline-block;
     position: sticky;
-}
-
-.two, .four {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .img {
@@ -45,13 +52,32 @@ body, h1, p, ul {
 }
 
 /* Navigation styles */
-.topNav {
+.topNav a {
     overflow: hidden;
     text-align: center;
     font-size: x-large;
     padding-top: 5px;
     padding-bottom: 10px;
     margin: 10px;
+    position: relative;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.topNav a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: .3s;
+}
+
+.topNav a:hover::before {
+    width: 100%;
 }
 /*Section class="pictures"*/
 .recipe {
