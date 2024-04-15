@@ -9,10 +9,16 @@ body, h1, p, ul {
 }
 
 /* Header styles */
-header {
-    background-color: #f2b705;
+header{
+    background-color: wheat;
     color: #b42134;
+}
+
+#headerName {
     text-align: center;
+    align-items: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .button {
