@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  background: #e56b6f;
+  border: 1px solid #6d597a;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.foot {
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e56b6f;
+  color: black;
+  border: 1px solid #6d597a;
+  padding: 10px;
+}
